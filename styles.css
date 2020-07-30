@@ -1,0 +1,67 @@
+body {
+    background-image: url("Apple-Watch-Blue-Mockup copy.jpg");
+    /* filter: blur(4px); */
+    /* background-size: cover; */
+  }
+  
+  .box {
+    background-color: white;
+    height: 310px;
+    width: 260px;
+    border-radius: 45px;
+    padding: 20px;
+    margin: 160px 100px 100px 360px;
+    /* box-shadow: 2px 2px 8px 25px #FFA18D  ; */
+    overflow-y: scroll;
+  
+  }
+  
+  #new-user-form {
+    text-align: center;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  #user-div {
+    text-align: center;
+  }
+  
+  #saved-advice {
+    text-align: center;
+  }
+  
+  .cookie {
+    background-image: url("https://lh3.googleusercontent.com/dN4y9n12BPhD-Nr5W7gX_V7Iml5C2nUre4S5-l3mCxY3izKDKtP-CcLplpqIpRi-8K_A=s100-rw");
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border: 0;
+  }
+  /* ============================== */
+  
+  .cookie:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+  
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
